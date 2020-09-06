@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+.loginbox{
+    
+    width:320px;
+    height:420px;
+
+    color:#000;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border: thick;
+}
+
+.avtaar{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    
+    
+}
+.loginbox p{
+    
+    margin:0;
+    padding:0;
+    font-weight: bold;
+    color: white;
+}
+
+.loginbox input{
+    
+    width:100%;
+    margin-bottom: 20px;
+    color: #3366FF;
+    
+    
+}
+
+.loginbox input[type="text"], input[type="password"]  {
+    
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: gray;
+    outline:none;
+    height:40px;
+    color : #FFFFCC;
+    font-size:16px;
+    
+    
+}
+
+.loginbox input[type="submit"]{
+    
+    border:none;
+    outline:none;
+    height:40px;
+    background: #fb2525;
+    color: #000;
+    font-size:18px;
+    border-radius:20px;
+    
+    
+}
+
+.loginbox input[type="submit"]:hover{
+    
+    cursor:pointer;
+    background: #ffc107;
+    color: #000;
+    
+}
+
+.loginbox:hover{
+    
+    color:darkorange;
+    
+} 
+.logtext{
+	
+	color: white;
+	
+	
+}
+::placeholder { 
+  color: #FFFFCC;
+  
+}
+

@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+.databox{
+	
+	width : 400px;
+	height :500px;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    color: white;
+    	
+}
+.databox input[type="submit"]{
+    
+    border:none;
+    outline:none;
+    height:40px;
+    background: #fb2525;
+    color: #000;
+    font-size:18px;
+    border-radius:20px;
+    
+    
+}
+.databox input{
+    
+    width:100%;
+    margin-bottom: 20px;
+    color: #3366FF;
+    
+    
+}
+.databox input[type="text"], input[type="password"]  {
+    
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: gray;
+    outline:none;
+    height:40px;
+    color : #FFFFCC;
+    font-size:16px;
+    
+    
+}
+td {
+	font-size: large;
+}
